@@ -4,8 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>$FAILANA</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
+
+  <div id="main-page">
+    <img id="homepage" class="backdrop-shadow" src="./metadata/homepage.png">
+    <button id="telegram-button" class="socials" style="z-index: 100;"></button>
+    <button id="twitter-button" class="socials" style="z-index: 100;"></button>
+    <button id="fakebuy-button" class="socials" style="z-index: 100;"></button>
+    <div id="contract-container">
+      <span id="contract-title">Contract Address</span>
+      <span id="contract">EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v</span>
+      <button id="copy-ca-button" style="z-index: 100;">Copy</button>
+    </div>
+    <div id="realbuy-container">
+      <span id="realbuy-title">You really wanna buy? Good luck lol...</span>
+      <button id="buy-button">Buy $FAILANA</button>
+      <button id="chart-button">Dexscreener</button>
+    </div>
+    <div id="fakebuy-switch" style="z-index: 100;"></div>
+  </div>
+
+  <div id="fakebuy-page">
+    <img id="buypage" class="backdrop-shadow" src="./metadata/fakebuy-page.png">
+    <button id="trade-button" style="z-index: 100;"></button>
+    <div id="tradepage">
+      <img id="accept-trade" src="./metadata/accept.png">
+      <button id="close-trade" style="z-index: 100;"></button>
+      <button id="close-area" style="z-index: 100;"></button>
+      <button id="confirm-trade" style="z-index: 100;"></button>
+    </div>
+    <img id="failedpage" src="./metadata/failed.png">
+    <div id="main-switch" style="z-index: 100;"></div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
