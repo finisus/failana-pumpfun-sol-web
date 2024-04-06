@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
   mainPageSwitch.addEventListener('click', function() {
     mainPage.style.display = 'block';
     fakeBuyPage.style.display = 'none';
+    failedTrade.style.display = 'none';
   });
 
   tradePage.style.display = 'none';
